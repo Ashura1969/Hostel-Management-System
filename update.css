@@ -1,0 +1,122 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cdc0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the update content */
+.update-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 80%; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for the header */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(92, 27, 243);
+    text-align: center; /* Center the header */
+}
+
+/* Form styling with scrollable area */
+.update-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    flex-grow: 1; /* Allow the form to grow */
+    padding-bottom: 20px; /* Add space below form to prevent covering buttons */
+}
+
+/* Label alignment */
+label {
+    width: 100%;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Update button styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #008CBA; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Update button hover effect */
+button[type="submit"]:hover {
+    background-color: #007bb5;
+}
+
+/* Back button styling */
+button[type="button"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #f44336; /* Red color for Back button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Back button hover effect */
+button[type="button"]:hover {
+    background-color: #e53935;
+}
+
+/* Container for the buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; /* Add space between form and buttons */
+}
+
+/* Footer button styling */
+footer {
+    margin-top: auto; /* Push footer buttons to the bottom */
+}
+
+/* Styling for the logo */
+div img {
+    display: block;
+    margin: 0 auto;
+    width: 120%;
+    height: auto;
+    max-width: 500px;
+    margin-bottom: 20px;
+}

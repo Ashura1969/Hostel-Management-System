@@ -1,0 +1,105 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cdc0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login content */
+.login-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+/* Styling for the header */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px; /* Space between text and the line */
+    border-bottom: 2px solid rgb(92, 27, 243); /* Purple line under the header */
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Label alignment to the right */
+label {
+    width: 100%;
+    text-align: right;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input fields styling */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the "Go to Resident Login" button */
+.navigation-buttons {
+    margin-top: 20px;
+}
+
+.navigation-buttons button {
+    width: 100%;
+    padding: 12px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.navigation-buttons button:hover {
+    background-color: #007bb5;
+}
+
+/* Styling for the logo */
+div img {
+    display: block;
+    margin: 0 auto;
+    width: 120%; /* Logo takes up 100% of the container width */
+    height: auto;
+    max-width: 500px; /* Adjust to control the max size */
+    margin-bottom: 20px; /* Adds space below the logo */
+}
